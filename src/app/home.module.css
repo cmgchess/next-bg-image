@@ -1,0 +1,5 @@
+@media (min-width: 1024px) {
+    .gradient {
+        background: radial-gradient(ellipse at 70% 130%, #2BE94B 0%, #F5FBFF 70%);
+    }
+}
