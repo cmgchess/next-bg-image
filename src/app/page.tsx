@@ -6,15 +6,13 @@ export default function Home() {
     <>
       <div className={`${styles.gradient}`}>
         <div style={{ height: "calc(100vh - 13vh)" }} className="lg:mr-14">
-          <div className="h-4/5 w-full relative hidden lg:block">
-            {
+          <div className="h-4/5 w-full relative">
               <Image
                 src="/hero.webp"
                 fill={true}
-                alt="Your alr"
-                className="object-contain object-right-top"
+                alt="Your alt"
+                className="object-contain object-right-top hidden lg:block"
               />
-            }
           </div>
 
           <div className="h-1/5 flex items-center justify-center w-screen bg-[#2BE94B] text-white text-2xl font-medium text-center leading-normal xl:text-[36px]">
